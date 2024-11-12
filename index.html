@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>মাসের নামাজের সময়</h1>
+        <label for="month-select">Select Month:</label>
+        <select id="month-select">
+            <option value="Jan">January</option>
+            <option value="Feb">February</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+            <option value="Jun">June</option>
+            <option value="Jul">July</option>
+            <option value="Aug">August</option>
+            <option value="Sep">September</option>
+            <option value="Oct">October</option>
+            <option value="Nov">November</option>
+            <option value="Dec">December</option>
+        </select>
+
+        <table id="prayer-times">
+            <thead>
+                <tr>
+                    <th>তারিখ</th>
+                    <th>ফজর</th>
+                    <th>সূর্যোদয়</th>
+                    <th>যোহর</th>
+                    <th>আসর</th>
+                    <th>মাগরিব</th>
+                    <th>এশা</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
