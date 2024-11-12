@@ -15,6 +15,9 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 50;
+    padding: 5px;
+    line-height: 0px;
     color: #333;
 }
 
@@ -46,4 +49,9 @@ th {
 
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
+}
+
+
+#today_prayer_times tr{
+    background-color: #22d04a;
 }

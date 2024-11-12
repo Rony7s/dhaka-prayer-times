@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>মাসের নামাজের সময়</h1>
+        <h1>নামাজের সময়</h1>
         <label for="month-select">Select Month:</label>
         <select id="month-select">
             <option value="Jan">January</option>
@@ -25,6 +25,22 @@
             <option value="Dec">December</option>
         </select>
 
+        <table id="today_prayer_times">
+            <thead>
+                <tr>
+                    <th>তারিখ</th>
+                    <th>ফজর</th>
+                    <th>সূর্যোদয়</th>
+                    <th>যোহর</th>
+                    <th>আসর</th>
+                    <th>মাগরিব</th>
+                    <th>এশা</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data rows will be populated here -->
+            </tbody>
+        </table>
         <table id="prayer-times">
             <thead>
                 <tr>
@@ -42,7 +58,13 @@
             </tbody>
         </table>
     </div>
-
+    <footer style="text-align: center; padding: 15px; background-color: #2c3e50; color: #ecf0f1; font-size: 15px; font-family: Arial, sans-serif; border-top: 3px solid #3498db;">
+        Developed by <strong>Rony Ahmmed</strong> | 
+        <a href="https://www.facebook.com/EdTech.Engg" style="color: #ecf0f1; text-decoration: none;">EdTE, Bangabandhu Digital University, Bangladesh</a>
+    </footer>
+    
+    
+    
     <script src="javascript.js"></script>
 </body>
 </html>
